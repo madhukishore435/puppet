@@ -1,0 +1,134 @@
+[root@madhu puppet]# history
+    1   sudo tee /etc/yum.repos.d/docker.repo <<-'EOF'
+    2  [dockerrepo]
+    3  name=Docker Repository
+    4  baseurl=https://yum.dockerproject.org/repo/main/centos/7/
+    5  enabled=1
+    6  gpgcheck=1
+    7  gpgkey=https://yum.dockerproject.org/gpg
+    8  EOF
+    9  sudo yum install docker-engine
+   10   yum install docker-engine
+   11  yum install docker-engine
+   12  systemctl disable firewalld
+   13  ifocnfig
+   14  ifconfig
+   15  yum update
+   16  pwd
+   17  ls -lrt
+   18  hostnamectl set-hostname madhu
+   19  service network restart
+   20  uptime
+   21  date
+   22  ipconfig
+   23  ifconfig
+   24  hostname
+   25  nslookup madhu
+   26  ifconfig
+   27  puppet agent --version
+   28  history
+   29  puppet config print
+   30  puppet config print config
+   31  /root/
+   32  cd /root/
+   33  pwd
+   34  ls -lrt
+   35  mkdir puppet
+   36  ls -lrt
+   37  cd puppet/
+   38  pwd
+   39  vi first.pp
+   40  cat n
+   41  cat first.pp
+   42  df -h
+   43  puppet parser validate first.pp
+   44  puupet apply first.pp
+   45  puppet apply first.pp
+   46  puppet apply -e "notify { 'Hello W': }'
+"
+   47  puppet apply -e "notify { 'Hello W': }"
+   48  puppet apply -e
+   49  puppet apply
+   50  puppet resource service puppet
+   51  puppet resource service httpd
+   52  pwd
+   53  vi puppet-service.pp
+   54  puppet parser validate puppet-service.pp
+   55  puppet apply puppet-service.pp
+   56  puppet resource service puppet
+   57  cd /etc/puppetlabs/
+   58  ls -lrt
+   59  cd puppet/
+   60  ls -lrt
+   61  cd ../..
+   62  cd puppetlabs/code/environments/
+   63  ls -lrt
+   64  cd production/
+   65  ls -lrt
+   66  cd manifests/
+   67  ls -lrt
+   68  pwd
+   69  cd /etc/puppetlabs/code/environments/production/manifests
+   70  ls -lrt
+   71  history
+   72
+   73  pwd
+   74  puppet describe --list
+   75  puppet describe notify
+   76  puppet describe user
+   77  puppet describe user --short
+   78  puppet describe file
+   79  puppet describe file | grep namevar
+   80  cd /etc/motd
+   81  cd /etc/
+   82  ls -lrt
+   83  ls -lrt motd
+   84  cat motd
+   85  cd
+   86  cd puppet/
+   87  ls -lrt
+   88  vi test1.pp
+   89  puppet validate test1.pp
+   90  vi test1.pp
+   91  puppet validate test1.pp
+   92  puppet parser validate test1.pp
+   93  puppet apply test1.pp
+   94  cat test1.pp
+   95  vi test1.pp
+   96  puppet apply test1.pp
+   97  puppet parser validate test1.pp
+   98  puppet apply test1.pp
+   99  vi test1.pp
+  100  puppet parser validate test1.pp
+  101  puppet apply test1.pp
+  102  vi package.pp
+  103  puppet parser validate package.pp
+  104  puppet apply package.pp
+  105  ls -lrt
+  106  hostname
+  107  ifconfig
+  108  vi service.pp
+  109  puppet parser validate service.pp
+  110  puppet apply service.pp
+  111  cat service.pp
+  112  pwdf
+  113  vi firewallsstop.pp
+  114  puppet parser validate firewallsstop.pp
+  115  puppet apply firewallsstop.pp
+  116  vi firewallsstop.pp
+  117  puppet parser validate firewallsstop.pp
+  118  puppet apply firewallsstop.pp
+  119  which git
+  120  verify > which git
+  121  cd /root/puppet/
+  122  git init
+  123  git config madhukishore435 "madhu"
+  124  git config user.name "madhukishore435"
+  125  git config user.email "p.madhukishore@gmail.com"
+  126  git add .
+  127  git commit -m"First backup'
+  128  git commit -m"First backup"
+  129  git push https://github.com/madhukishore435/puppet.git master
+  130  histor
+  131  history
+
